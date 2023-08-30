@@ -1,0 +1,185 @@
+.mainPhoto{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.subPhoto{
+    width: 350px;
+    position: absolute;
+    left: 15%;
+    top: 7vw;
+}
+.m1{
+    width: content-box;
+    position: absolute;
+    left: 50%;
+    top: 30vh;
+}
+.m2{
+    width: content-box;
+    position: absolute;
+    left: 50%;
+    top: 35vh;
+}
+.m3{
+    width: content-box;
+    position: absolute;
+    left: 55%;
+    top: 42vh;
+}
+.hire{
+    width: content-box;
+    height: content-box;
+    position: absolute;
+    left: 65%;
+    top: 55vh;
+}
+.hire>button{
+    width: 100px;
+    background-color: yellow;
+    border-radius: 5px 5px 5px 5px;
+    border: 0;
+    font-size: 20px ;
+    font-weight: 600;
+}
+.fb{
+    width: content-box;
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 20vh;
+}
+.gmail{
+    width: content-box;
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 30vh;
+}
+.twitter{
+    width: content-box;
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 40vh;
+}
+.whatsapp{
+    width: content-box;
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 50vh;
+}
+.insta{
+    width: content-box;
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 60vh;
+}
+.title1{
+    width: content-box;
+    position: relative;
+    top: 93vh;
+}
+.secondimg{
+    width: 450px;
+    position: relative;
+    top: 90vh;
+}
+.tharu{
+    width: content-box;
+    position: relative;
+    top: 40vh;
+    left: 90vh;
+}
+.para3{
+    width: 700px;
+    position: relative;
+    top: 40vh;
+    left: 90vh;
+}
+.cvbtn{
+    width: content-box;
+    height: content-box;
+    position: relative;
+    top: 40vh;
+    left: 150vh;
+}
+.cvbtn>button{
+    position: relative;
+    background-color: yellow;
+}
+.title2{
+    width: content-box;
+    position: relative;
+    top: 70vh;
+}
+section>div{
+    width: content-box;
+    display: inline-flex;
+    position: relative;
+}
+div{
+    width: 350px;
+    background-color: slategray;
+    position: relative;
+    border-radius: 7px 7px 7px 7px;
+    display: flex;
+    top: 70vh;
+    margin-left: 35vh;
+    margin-bottom: 5vh;
+}
+div>h3{
+    width: content-box;
+    position: relative;
+    left: 5vh;
+}
+.title3{
+    width: content-box;
+    position: relative;
+    top: 100vh;
+}
+.assignmentsection>a{
+    position: relative;
+    width: content-box;
+    display: inline-block;
+    top: 100vh;
+    left: 20vh;
+    margin-bottom: 10vh;
+}
+.assignmentsection>a>button{
+    width: content-box;
+    position: relative;
+    top:4vh;
+    right: 30vh;
+}
+
+.tool{
+    width: content-box;
+    position: relative;
+    margin-left: 25vh;
+    top: 70vh;
+}
+.tool>a{
+    margin: 15px;
+}
+.animation{
+    width: 500%;
+    position: relative;
+    top: 100vh;
+    font-size: 15vh;
+
+    background-repeat: repeat-x;
+    animation: service 15s linear infinite;
+}
+
+@keyframes service {
+    100%{
+        transform: translateX(-3400px);
+    }
+}
+
+
+
+
