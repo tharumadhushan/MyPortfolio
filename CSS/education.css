@@ -1,0 +1,49 @@
+.animation{
+    width: 500%;
+    position: relative;
+    font-size: 15vh;
+    top: 20vh;
+    background-repeat: repeat-x;
+    animation: service 15s linear infinite;
+}
+
+@keyframes service {
+    100%{
+        transform: translateX(-3400px);
+    }
+}
+.title4{
+    width: content-box;
+    position: relative;
+    top: 5vh;
+}
+div{
+    width:40vw;
+    height: 10vw;
+    background-color: slategray;
+    position: relative;
+    border-radius: 10px 10px 10px 10px;
+    left: 20vh;
+    display: inline-flex;
+    border-bottom: 10vw;
+
+}
+body>img{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    left: 70vh;
+    top: 7vh;
+}
+div>h4{
+    width: content-box;
+    position: absolute;
+    top: 2px;
+    left: 5px;
+}
+div>p{
+    width: content-box;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}

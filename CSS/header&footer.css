@@ -1,7 +1,7 @@
 header{
     position: relative;
 }
-header>img{
+header>.tm{
     margin-left: 5px;
 }
 header>nav{
@@ -17,7 +17,7 @@ footer{
     height: 25vw;
     background-color: rgb(0, 0, 0, 80%);
     position: relative;
-    margin-bottom: 0;
+    bottom: 0;
 }
 .name{
     top: 5vw;
@@ -57,3 +57,4 @@ footer>a{
 body{
     overflow-x: hidden;
 }
+
