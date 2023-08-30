@@ -1,0 +1,42 @@
+.animation{
+    width: 500%;
+    position: relative;
+    font-size: 15vh;
+    top: 20vh;
+    background-repeat: repeat-x;
+    animation: service 15s linear infinite;
+}
+
+@keyframes service {
+    100%{
+        transform: translateX(-3400px);
+    }
+}
+div{
+    width: 24%;
+    height: 20vw;
+    position: relative;
+    display: inline-block;
+    left: 2%;
+}
+div>img{
+    width: content-box;
+    position: relative;
+    left: 8vw;
+}
+div>center>h2{
+    width: content-box;
+    position: relative;
+    /*left: 100px;*/
+}
+div>p{
+    width: 140px;
+    position: relative;
+}
+input{
+    width: content-box;
+    position: relative;
+    display: inline;
+}
+
+
