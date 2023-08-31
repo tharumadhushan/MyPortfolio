@@ -1,0 +1,43 @@
+.animation{
+    width: 500%;
+    position: relative;
+    font-size: 15vh;
+    top: 20vh;
+    background-repeat: repeat-x;
+    animation: service 15s linear infinite;
+}
+
+@keyframes service {
+    100%{
+        transform: translateX(-3400px);
+    }
+}
+.maindiv{
+    width: content-box;
+    position: relative;
+    left: 2vw;
+}
+.maindiv>img{
+    width: content-box;
+    position: relative;
+}
+.btn1{
+    width: content-box;
+    position: relative;
+    bottom: 20vw;
+    left: 18vw;
+    border-radius: 20px;
+}
+.btn2{
+    width: content-box;
+    position: relative;
+    bottom: 20vw;
+    left: 56vw;
+    border-radius: 20px;
+}
+.blurimage{
+    filter: blur(2px);
+}
+.blurimage:hover{
+    filter: blur(0px);
+}
