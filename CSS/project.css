@@ -1,0 +1,48 @@
+.animation{
+    width: 500%;
+    position: relative;
+    font-size: 15vh;
+    top: 20vh;
+    background-repeat: repeat-x;
+    animation: service 15s linear infinite;
+}
+
+@keyframes service {
+    100%{
+        transform: translateX(-3400px);
+    }
+}
+div{
+    width: 60vw;
+    height: 200px;
+    background-color: gray;
+    position: relative;
+    display: inline-block;
+    border-radius: 10px 10px 10px 10px;
+    left: 10vw;
+}
+p{
+    width: 40vw;
+    position: relative;
+}
+body>img{
+    height: 200px;
+    position: relative;
+    display: inline-flex;
+    right: 5px;
+    border-bottom: 0;
+}
+.img1{
+    top: 107px;
+}
+
+.img2{
+    top: 70px;
+}
+
+.img3{
+    top: 70px;
+}
+button{
+    left: 20vw;
+}
