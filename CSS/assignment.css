@@ -1,0 +1,22 @@
+.animation{
+    width: 500%;
+    position: relative;
+    font-size: 15vh;
+    top: 20vh;
+    background-repeat: repeat-x;
+    animation: service 15s linear infinite;
+}
+
+@keyframes service {
+    100%{
+        transform: translateX(-3400px);
+    }
+}
+iframe{
+    left: 5vw;
+    position: relative;
+}
+button{
+    left: 5vw;
+    position: relative;
+}
