@@ -56,5 +56,6 @@ footer>a{
 }
 body{
     overflow-x: hidden;
+    background: linear-gradient(180deg, lightblue, white );
 }
 

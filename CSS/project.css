@@ -18,7 +18,7 @@ div{
     background-color: gray;
     position: relative;
     display: inline-block;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 30px 30px 10px;
     left: 10vw;
 }
 p{
@@ -43,6 +43,9 @@ body>img{
 .img3{
     top: 70px;
 }
-button{
-    left: 20vw;
+.b{
+    left: 60vh;
+    background: palevioletred;
+    border-radius: 20px;
+    border: 0;
 }
