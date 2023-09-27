@@ -55,7 +55,12 @@ footer>a{
     bottom: 10vw;
 }
 body{
-    overflow-x: hidden;
+    overflow-x: hidden!important;
     background: linear-gradient(180deg, lightblue, white );
 }
 
+#custom-footer {
+    height: 500px;
+    width: 100vw;
+    background: red;
+}

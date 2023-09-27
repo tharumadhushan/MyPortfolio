@@ -117,9 +117,9 @@
     top: 70vh;
 }
 section>div{
-    width: content-box;
-    display: inline-flex;
-    position: relative;
+    /*width: content-box;*/
+    /*display: inline-flex;*/
+    /*position: relative;*/
 }
 div{
     width: 350px;
@@ -178,6 +178,48 @@ div>h3{
 @keyframes service {
     100%{
         transform: translateX(-3400px);
+    }
+}
+@media all and (max-width: 1440px) and (min-width: 1025px){
+    .animation{
+        width: 500%;
+        font-size: 15vh;
+        top: 20vh;
+    }
+}
+@media all and (max-width: 1024px) and (min-width: 769px){
+    .animation{
+        width: 550%;
+        font-size: 13vh;
+        top: 20vh;
+    }
+}
+@media all and (max-width: 768px) and (min-width: 426px){
+    .animation{
+        width: 650%;
+        font-size: 12vh;
+        top: 20vh;
+    }
+}
+@media all and (max-width: 425px) and (min-width: 376px){
+    .animation{
+        width: 1200%;
+        font-size: 11vh;
+        top: 20vh;
+    }
+}
+@media all and (max-width: 375px) and (min-width: 321px){
+    .animation{
+        width: 1300%;
+        font-size: 11vh;
+        top: 20vh;
+    }
+}
+@media all and (max-width: 320px) and (min-width: 0px){
+    .animation{
+        width: 1550%;
+        font-size: 11vh;
+        top: 20vh;
     }
 }
 
