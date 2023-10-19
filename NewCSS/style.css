@@ -125,7 +125,7 @@ body{
 /*///////////////////////////////////////////////////////////*/
 .herosec{
     width: 100%;
-    min-height: 42vw;
+    min-height: 100vh;
     position: relative;
     background: #250821;
 }
@@ -235,7 +235,7 @@ h2{
 /*///////////////////////////////////////////////////////////*/
 .about-sec{
     width: 100%;
-    height: 42vw;
+    min-height: 100vh;
     position: relative;
     background: #292e33;
     display: flex;
@@ -316,7 +316,7 @@ h2{
 /*///////////////////////////////////////////////////////////*/
 .service-sec{
     width: 100%;
-    height: 60vw;
+    min-height: 130vh;
     position: relative;
     /*background: red;*/
     background: #250821;
@@ -412,7 +412,7 @@ h2{
 
 .skills{
     width: 100%;
-    height: 45vw;
+    min-height: 100vh;
     position: relative;
     background: #292e33;
     margin: 0;
@@ -610,7 +610,7 @@ h2{
 /*///////////////////////////////////////////////////////////*/
 .projectsec{
     width: 100%;
-    height: 68vw;
+    min-height: 100vh;
     position: relative;
     background: #292e33;
     margin: 0;
