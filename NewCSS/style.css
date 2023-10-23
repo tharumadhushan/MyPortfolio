@@ -1,5 +1,5 @@
 body{
-    width: 100%;
+    width: 100vw;
     height: 100%;
     position: absolute;
     overflow-x: hidden;
@@ -22,6 +22,7 @@ body{
     height: content-box;
     position: absolute;
     display: flex;
+    text-decoration: none;
 }
 .navbar {
     width: 100%;
@@ -36,6 +37,7 @@ body{
     top: 0;
     width: 100%;
     box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+    /*text-decoration: none;*/
 }
 
 .navbar .navbar-brand {
@@ -62,13 +64,15 @@ body{
     background: #f8f9fa;
 }
 .nav-item{
-    padding: 10px 10px 8px 10px;
+    padding: 10px 15px 8px 15px;
     color: #FFFFFF;
     position: relative;
     font-family: "Montserrat";
+    text-decoration: none;
 }
 .navbar.nav-sticky {
-    padding: 10px 60px;
+    /*padding: 10px 60px;*/
+    padding-bottom: 10px;
     background: #FFFFFF !important;
 }
 
@@ -77,22 +81,27 @@ body{
 }
 
 .navbar.nav-sticky .navbar-brand {
+    width: fit-content;
+    position: relative;
+    left: 100px;
+    top: 5px;
     color: #250821;
 }
 
 .navbar-light .navbar-nav .nav-link,
 .navbar-light .navbar-nav .nav-link:focus {
-    padding: 10px 10px 8px 10px;
+    padding: 10px 15px 8px 15px;
     color: #ffffff;
     font-size: 15px;
     font-weight: 500;
+
 }
 
 .navbar-light.nav-sticky .navbar-nav .nav-link,
 .navbar-light.nav-sticky .navbar-nav .nav-link:focus {
     color: #414141;
     position: relative;
-    right: 5vw;
+    /*right: 5vw;*/
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
@@ -110,7 +119,7 @@ body{
 
 .navbar-light.nav-sticky .navbar-nav .nav-link:hover,
 .navbar-light.nav-sticky .navbar-nav .nav-link.active {
-    color: #12f7ff;
+    color: #129cff;
     text-shadow: 0 0 10px rgba(18,247,255,0.3),
     0 0 20px rgba(18,247,255,0.3),
     0 0 30px rgba(18,247,255,0.3),
@@ -120,11 +129,13 @@ body{
     0 0 100px rgba(18,247,255,0.3),
     0 0 150px rgba(18,247,255,0.3);
 }
+
+
 /*////////////////////////////////////////////////////////////*/
 /*//////////////hero css/////////////////////////////////////*/
 /*///////////////////////////////////////////////////////////*/
 .herosec{
-    width: 100%;
+    width: 100vw;
     min-height: 100vh;
     position: relative;
     background: #250821;
@@ -209,6 +220,7 @@ h2{
     color: #FFFFFF;
     font-family: Montserrat;
     font-size: 18px;
+    text-decoration: none;
 
 }
 .herobtn:hover{
@@ -307,6 +319,7 @@ h2{
      border-radius: 0;
      transition: ease-out 0.3s;
     font-family: Montserrat;
+    text-decoration: none;
 }
 .about-content .btn:hover{
     box-shadow: 0 0 .9rem #12f7ff;
@@ -335,6 +348,7 @@ h2{
     font-family: Montserrat;
     top: 10px;
     box-shadow: 0 0 .9rem #12f7ff;
+    text-decoration: none;
 }
 .service-sec .section-services .service-btn .btn:hover{
     background: #12f7ff;
@@ -631,6 +645,7 @@ h2{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(390px, auto));
+    padding-bottom: 40px;
 }
 .portfolio-content .row{
     position: relative;
@@ -708,6 +723,7 @@ h2{
     right: 0;
     margin: auto;
     font-family: Montserrat;
+    text-decoration: none;
 }
 .projectsec .layer a:hover{
     color: black;
@@ -1068,8 +1084,9 @@ h2{
     text-align: center;
     padding: 25px 0;
     background: rgb(7, 85, 91);
-    font-weight: 300;
+    font-weight: 600;
     margin: 0;
+    font-family: Montserrat;
 }
 .top{
     position: fixed;
@@ -1078,4 +1095,271 @@ h2{
 }
 .top:hover{
     background: #01ff95;
+    border-radius: 40%;
+}
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*@media all and (max-width: 1440px){*/
+/*    .about-text p {*/
+/*        width: 600px;*/
+/*        height: fit-content;*/
+/*        position: relative;*/
+/*        left: 200px;*/
+/*        top: 100px;*/
+/*        font-size: 17px;*/
+/*        color: #FFFFFF;*/
+/*        font-family: 'Tilt Neon', sans-serif;*/
+/*    }*/
+/*    .about-content .btn {*/
+/*        width: fit-content;*/
+/*        position: relative;*/
+/*        left: 199px;*/
+/*        top: 140px;*/
+/*        padding: 12px 25px;*/
+/*        font-size: 14px;*/
+/*        !* font-weight: 600; *!*/
+/*        letter-spacing: 1px;*/
+/*        color: #ffffff;*/
+/*        background: black;*/
+/*        border-radius: 0;*/
+/*        transition: ease-out 0.3s;*/
+/*        font-family: Montserrat;*/
+/*        text-decoration: none;*/
+/*    }*/
+/*    .section-header p {*/
+/*        width: fit-content;*/
+/*        position: relative;*/
+/*        left: 168px;*/
+/*    }*/
+/*}*/
+/*@media all and (max-width: 1024px){*/
+/*    !*.navbar-collapse {*!*/
+/*    !*    width: fit-content;*!*/
+/*    !*    position: relative;*!*/
+/*    !*    right: -69px;*!*/
+/*    !*    top: 12px;*!*/
+/*    !*}*!*/
+/*    .navbar .navbar-brand {*/
+/*        font-size: 37px;*/
+/*        color: #ffffff;*/
+/*    }*/
+/*    .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link:focus {*/
+/*        padding: 10px 12px 8px 12px;*/
+/*        color: #ffffff;*/
+/*        font-size: 15px;*/
+/*        font-weight: 500;*/
+/*    }*/
+/*    .navbar.nav-sticky {*/
+/*        width: 100vw;*/
+/*        !* padding: 10px 60px; *!*/
+/*        padding-bottom: 10px;*/
+/*        background: #FFFFFF !important;*/
+/*    }*/
+/*    .navbar-collapse {*/
+/*        width: fit-content;*/
+/*        position: relative;*/
+/*        right: -120px;*/
+/*        top: 12px;*/
+/*    }*/
+/*    .about-text p {*/
+/*        width: 600px;*/
+/*        height: fit-content;*/
+/*        position: relative;*/
+/*        left: 108px;*/
+/*        top: 100px;*/
+/*        font-size: 17px;*/
+/*        color: #FFFFFF;*/
+/*        font-family: 'Tilt Neon', sans-serif;*/
+/*    }*/
+/*    .about-text p {*/
+/*        width: 480px;*/
+/*        height: fit-content;*/
+/*        position: relative;*/
+/*        left: 108px;*/
+/*        top: 100px;*/
+/*        font-size: 17px;*/
+/*        color: #FFFFFF;*/
+/*        font-family: 'Tilt Neon', sans-serif;*/
+/*    }*/
+/*    .herosec .hero-image {*/
+/*        width: fit-content;*/
+/*        position: absolute;*/
+/*        left: 38vw;*/
+/*        top: 70px;*/
+/*    }*/
+/*    .hero .hero-text {*/
+/*        width: fit-content;*/
+/*        position: absolute;*/
+/*        left: 6vw;*/
+/*        top: 8vw;*/
+/*    }*/
+/*    .socialMedia {*/
+/*        width: fit-content;*/
+/*        position: relative;*/
+/*        top: 400px;*/
+/*        left: 40px;*/
+/*    }*/
+/*    .section-header p {*/
+/*        width: fit-content;*/
+/*        position: relative;*/
+/*        left: 77px;*/
+/*    }*/
+/*    .section-services {*/
+/*        width: 96vw;*/
+/*        position: relative;*/
+/*        left: 0;*/
+/*        right: 0;*/
+/*        margin: auto;*/
+/*        display: flex;*/
+/*        justify-content: center;*/
+/*        align-items: center;*/
+/*        flex-wrap: wrap;*/
+/*        grid-gap: 1rem;*/
+/*        color: #FFFFFF;*/
+/*        padding-bottom: 25px;*/
+/*    }*/
+/*    .contact-text h2 {*/
+/*        font-size: 84px;*/
+/*        line-height: 1;*/
+/*        text-align: center;*/
+/*        color: #12f7ff;*/
+/*    }*/
+/*    .contact-text p {*/
+/*        color: rgb(177,177,177);*/
+/*        font-size: 20px;*/
+/*        line-height: 30px;*/
+/*        margin-bottom: 2rem;*/
+/*        width: 490px;*/
+/*    }*/
+/*}*/
+/*@media all and (max-width: 768px){*/
+/*    .herosec .hero .hero-image img{*/
+/*        width: 595px;*/
+/*        height: auto;*/
+/*    }*/
+/*    .about-text p {*/
+/*        width: 400px;*/
+/*        height: fit-content;*/
+/*        position: relative;*/
+/*        left: 108px;*/
+/*        top: 100px;*/
+/*        font-size: 17px;*/
+/*        color: #FFFFFF;*/
+/*        font-family: 'Tilt Neon', sans-serif;*/
+/*    }*/
+/*    .navbar-collapse {*/
+/*        width: fit-content;*/
+/*        position: relative;*/
+/*        right: -102px;*/
+/*        top: 12px;*/
+/*    }*/
+/*}*/
+/*@media all and (max-width: 425px){*/
+
+/*}*/
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media all and (max-width: 1440px){
+    .section-header p {
+        left: 165px;
+    }
+    .about-text p {
+        left: 196px;
+    }
+    .about-content .btn {
+        left: 194px;
+    }
+    .contact-text p {
+        width: 662px;
+    }
+}
+@media all and (max-width: 1024px){
+    .navbar .navbar-brand {
+        font-size: 30px;
+    }
+    .hero .hero-text {
+        left: 6vw;
+    }
+    .socialMedia {
+        left: 40px;
+    }
+    .herosec .hero-image {
+        left: 38vw;
+    }
+    .navbar-collapse {
+        right: -180px;
+    }
+    .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link:focus {
+        padding: 11px 12px 8px 12px;
+    }
+    .about-text p {
+        width: 390px;
+        left: 160px;
+    }
+    .about-img img {
+        width: 399px;
+        height: 470px;
+    }
+    .section-services {
+        padding-bottom: 28px;
+    }
+    .section-header p {
+        left: 124px;
+    }
+}
+@media all and (max-width: 768px){
+    .herosec .hero-image img{
+        width: 590px;
+    }
+    .herosec .hero-image {
+        left: 41vw;
+    }
+    .navbar .navbar-brand {
+        font-size: 35px;
+    }
+    .navbar-collapse {
+        right: -145px;
+    }
+    .navbar.nav-sticky {
+        width: 100vw;
+    }
+    .about-img img {
+        width: 344px;
+        height: 444px;
+    }
+    .about-text p {
+        width: 470px;
+    }
+    .hero .hero-text {
+        left: 6vw;
+    }
+    .socialMedia {
+        left: 40px;
+    }
+    .herosec {
+        min-height: 70vh;
+    }
+    .about-sec {
+        min-height: 70vh;
+    }
+    .section-services {
+        padding-bottom: 33px;
+    }
+    .skill-bar {
+        left: 45px;
+    }
+    .skills {
+        min-height: 80vh;
+    }
+    .contact-text h2 {
+        font-size: 66px;
+    }
+    .contact-text p {
+        width: 48vw;
+    }
+
+
+}
+@media all and (max-width: 425px){
+
 }
