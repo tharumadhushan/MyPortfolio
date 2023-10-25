@@ -130,3 +130,17 @@ $(document).ready(function (){
     })
 })
 
+//nav bar
+
+const header = document.querySelector("navbar");
+window.addEventListener("scroll",function (){
+    header.classList.toggle("sticky",window.scrollY > 50)
+})
+
+let menuIcon = document.querySelector("#menu-icon");
+let navlist = document.querySelector(".navbar-nav");
+
+menuIcon.onclick = ()=>{
+    menuIcon.classList.toggle("bx-x");
+    navlist.classList.toggle("open");
+}
