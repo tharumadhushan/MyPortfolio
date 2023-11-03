@@ -1469,8 +1469,67 @@ body{
     }
 }
 @media all and (max-width: 375px){
-
+    .about-text p {
+        left: 97px;
+        font-size: 15px;
+        width: 340px;
+    }
+    .hero-image img {
+        width: 394px;
+    }
+    .portfolio-content .row {
+        position: relative;
+        overflow: hidden;
+        border-radius: 8px;
+        cursor: pointer;
+        width: 348px;
+        padding: 12px;
+    }
+    .socialMedia {
+        left: 26px;
+        top: 538px;
+    }
+    .hero h1{
+        font-size: 33px;
+    }
+    .socialMedia {
+        left: 21px;
+        top: 538px;
+    }
+    .about-img img {
+        width: 263px;
+        height: auto;
+        top: 42px;
+        left: 58px;
+    }
+    .section-header p {
+        left: 152px;
+    }
+    .about-content .btn {
+        left: 177px;
+    }
+    .contact-form form .send {
+        padding: 5px 30px;
+        left: 108px;
+    }
+    .skills {
+        min-height: 166vh;
+    }
 }
 @media all and (max-width: 320px){
-
+    .hero-image img {
+        width: 354px;
+    }
+    .herosec .hero-image {
+        left: -13vw;
+        top: 38px;
+    }
+    .about-text p {
+        left: 97px;
+        font-size: 15px;
+        width: 287px;
+    }
+    .about-sec {
+        min-height: 126vh;
+    }
 }
