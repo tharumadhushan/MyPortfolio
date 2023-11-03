@@ -2,7 +2,7 @@ body{
     width: 100vw;
     height: 100%;
     position: absolute;
-    /*overflow-x: hidden;*/
+    overflow-x: hidden;
     scroll-behavior: smooth;
 }
 /**********************************/
@@ -190,10 +190,8 @@ body{
     left: 10vw;
     top: 8vw;
 }
-.hero
-p,
-h1,
-h2{
+.hero p, h1, h2{
+    /*width: fit-content;*/
     font-family: 'Tilt Neon', sans-serif;
 }
 .hero p{
@@ -1111,296 +1109,10 @@ h2{
     border-radius: 40%;
 }
 
-
-/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
-/*@media all and (max-width: 1440px){*/
-/*    .section-header p {*/
-/*        left: 165px;*/
-/*    }*/
-/*    .about-text p {*/
-/*        left: 196px;*/
-/*    }*/
-/*    .about-content .btn {*/
-/*        left: 194px;*/
-/*    }*/
-/*    .contact-text p {*/
-/*        width: 662px;*/
-/*    }*/
-/*}*/
-/*@media all and (max-width: 1024px){*/
-/*    .navbar .navbar-brand {*/
-/*        font-size: 30px;*/
-/*    }*/
-/*    .hero .hero-text {*/
-/*        left: 6vw;*/
-/*    }*/
-/*    .socialMedia {*/
-/*        left: 40px;*/
-/*    }*/
-/*    .herosec .hero-image {*/
-/*        left: 38vw;*/
-/*    }*/
-/*    .navbar-collapse {*/
-/*        right: -180px;*/
-/*    }*/
-/*    .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link:focus {*/
-/*        padding: 11px 12px 8px 12px;*/
-/*    }*/
-/*    .about-text p {*/
-/*        width: 390px;*/
-/*        left: 160px;*/
-/*    }*/
-/*    .about-img img {*/
-/*        width: 399px;*/
-/*        height: 470px;*/
-/*    }*/
-/*    .section-services {*/
-/*        padding-bottom: 28px;*/
-/*    }*/
-/*    .section-header p {*/
-/*        left: 124px;*/
-/*    }*/
-/*}*/
-/*@media all and (max-width: 768px){*/
-/*    .navbar .navbar-brand {*/
-/*        font-size: 27px;*/
-/*        left: 18px;*/
-/*    }*/
-/*    .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link:focus {*/
-/*        padding: 8px 8px 8px 8px;*/
-/*        font-size: 13px;*/
-/*    }*/
-/*    .navbar-collapse {*/
-/*        right: -75px;*/
-/*    }*/
-/*    .navbar.nav-sticky .navbar-brand {*/
-/*        left: 38px;*/
-/*    }*/
-/*    .hero p{*/
-/*        font-size: 25px;*/
-/*    }*/
-/*    .hero h1{*/
-/*        font-size: 40px;*/
-/*    }*/
-/*    .hero .hero-text h2{*/
-/*        font-size: 24px;*/
-/*    }*/
-/*    .herobtn{*/
-/*        width: 125px;*/
-/*        height: 35px;*/
-/*        top: 194px;*/
-/*    }*/
-/*    .herobtn .btn{*/
-/*        font-size: 14px;*/
-/*    }*/
-/*    .socialMedia {*/
-/*        left: 22px;*/
-/*        top: 315px;*/
-/*    }*/
-/*    .herosec .hero-image img{*/
-/*        width: 445px;*/
-/*        height: auto;*/
-/*    }*/
-/*    .herosec .hero-image {*/
-/*        left: 42vw;*/
-/*    }*/
-/*    .about-img img {*/
-/*        width: 317px;*/
-/*        height: 384px;*/
-/*        top: 30px;*/
-/*    }*/
-/*    .section-header p {*/
-/*        top: 50px;*/
-/*        left: 76px;*/
-/*    }*/
-/*    .about-text p {*/
-/*        top: 59px;*/
-/*        width: 321px;*/
-/*        left: 111px;*/
-/*        font-size: 15px;*/
-/*    }*/
-/*    .about-content .btn {*/
-/*        padding: 12px 25px;*/
-/*        font-size: 12px;*/
-/*        top: 95px;*/
-/*        left: 111px;*/
-/*    }*/
-/*    .skill-bar {*/
-/*        left: 36px;*/
-/*    }*/
-/*    .contact-text h2 {*/
-/*        font-size: 62px;*/
-/*        line-height: 0;*/
-/*    }*/
-/*    .contact-text {*/
-/*        width: 57vw;*/
-/*        position: relative;*/
-/*        left: 10px;*/
-/*        top: -14px;*/
-/*    }*/
-/*    .contact-text p {*/
-/*        width: 407px;*/
-/*        font-size: 17px;*/
-/*        line-height: 25px;*/
-/*    }*/
-/*    .contact-form form {*/
-/*        width: 42vw;*/
-/*        top: -25px;*/
-/*    }*/
-/*    .contact-form form input, form textarea {*/
-/*        padding: 6px;*/
-/*    }*/
-/*    .last-text p {*/
-/*        padding: 13px 0;*/
-/*    }*/
-/*    .top {*/
-/*        bottom: 1.1rem;*/
-/*        right: 1.1rem;*/
-/*    }*/
-/*    .about-sec {*/
-/*        min-height: 91vh;*/
-/*    }*/
-/*}*/
-/*@media all and (min-width: 425px) {*/
-    /*.herosec .hero-image {*/
-    /*    left: -13vw;*/
-    /*}*/
-    /*.hero .hero-text {*/
-    /*    top: 82vw;*/
-    /*}*/
-    /*.herosec {*/
-    /*    min-height: 144vh;*/
-    /*}*/
-    /*.hero p{*/
-    /*    font-size: 23px;*/
-    /*    margin-left: 57px;*/
-    /*}*/
-    /*.hero h1{*/
-    /*    font-size: 36px;*/
-    /*}*/
-    /*.hero .hero-text h2{*/
-    /*    padding-left: 20vw;*/
-    /*}*/
-    /*.herobtn{*/
-    /*    right: 0;*/
-    /*    left: 0;*/
-    /*    margin: auto;*/
-    /*}*/
-    /*.socialMedia {*/
-    /*    top: 620px;*/
-    /*}*/
-    /*.about-img img {*/
-    /*    width: 276px;*/
-    /*    height: 343px;*/
-    /*    top: 30px;*/
-    /*    left: 18vw;*/
-    /*}*/
-    /*.about-content{*/
-    /*    top: 82vw;*/
-    /*    right: 61vw;*/
-    /*}*/
-    /*.about-sec {*/
-    /*    min-height: 156vh;*/
-    /*}*/
-    /*.about-text p {*/
-    /*    left: 50px;*/
-    /*    font-size: 14px;*/
-    /*}*/
-    /*.contact-form form {*/
-    /*    width: 91vw;*/
-    /*    top: 405px;*/
-    /*    left: -208px;*/
-    /*}*/
-    /*.contact-text {*/
-    /*    width: 91vw;*/
-    /*    top: 154px;*/
-    /*    left: -371px;*/
-    /*}*/
-    /*.contact-icons {*/
-    /*    left: 88px;*/
-    /*}*/
-    /*.contact {*/
-    /*    min-height: 210vh;*/
-    /*}*/
-    /*element {*/
-    /*    left: 90px;*/
-    /*}*/
-    /*.contact-form form .send{*/
-    /*    left: 90px;*/
-    /*}*/
-    /*.last-text p {*/
-    /*    padding: 13px 0;*/
-    /*    font-weight: 400;*/
-    /*    font-size: 12px;*/
-    /*}*/
-    /*.skill-bar {*/
-    /*    left: 19px;*/
-    /*}*/
-    /*.navbar-nav .nav-item{*/
-    /*    display: none;*/
-    /*}*/
-    /*.hero .hero-text {*/
-    /*    left: 23vw;*/
-    /*    top: 55vw;*/
-    /*}*/
-    /*.herosec .hero-image {*/
-    /*    left: 13vw;*/
-    /*}*/
-    /*.socialMedia {*/
-    /*    top: 850px;*/
-    /*    left: 317px;*/
-    /*}*/
-    /*.herobtn{*/
-    /*    left: 212px;*/
-    /*}*/
-    /*.hero .hero-text h2{*/
-    /*    left: 105px;*/
-    /*}*/
-    /*.herosec {*/
-    /*    min-height: 82vh;*/
-    /*}*/
-    /*.about-img img {*/
-    /*    width: 520px;*/
-    /*    height: 704px;*/
-    /*    left: 246px;*/
-    /*}*/
-    /*.about-content{*/
-    /*    display: block;*/
-    /*    width: fit-content;*/
-    /*    height: fit-content;*/
-    /*    position: relative;*/
-    /*    top: 70vw;*/
-    /*    right: 43vw;*/
-    /*}*/
-    /*.section-header p {*/
-    /*    left: 302px;*/
-    /*}*/
-    /*.about-text p {*/
-    /*    width: 596px;*/
-    /*    left: 133px;*/
-    /*}*/
-    /*.about-content .btn {*/
-    /*    left: 333px;*/
-    /*}*/
-    /*.service-sec {*/
-    /*    min-height: 100vw;*/
-    /*}*/
-    /*.skills {*/
-    /*    min-height: 54vh;*/
-    /*}*/
-    /*.skill-bar {*/
-    /*    left: 42px;*/
-    /*}*/
-/*}*/
-/*@media all and (max-width: 375px){*/
-
-/*}*/
-/*@media all and (max-width: 320px){*/
-
-/*}*/
-
-
-/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
 
 @media all and (max-width: 1024px){
     .navbar .navbar-brand {
@@ -1417,7 +1129,7 @@ h2{
         left: 73px;
     }
     .hero .hero-text {
-        left: 7vw;
+        /*left: 7vw;*/
     }
     .socialMedia {
         left: 46px;
@@ -1447,7 +1159,7 @@ h2{
         left: 38px;
     }
     .portfolio-content .row img {
-        width: 97%;
+        width: 100%;
     }
     .contact-text h2 {
         font-size: 80px;
@@ -1495,6 +1207,9 @@ h2{
         height: 32px;
         top: 208px;
     }
+    .portfolio-content .row img {
+        width: 100%;
+    }
     .hero .hero-text {
         left: 5vw;
     }
@@ -1537,7 +1252,6 @@ h2{
     }
     .section-services {
         width: 92vw;
-        left: -8px;
     }
     .skill-bar {
         left: 25px;
@@ -1628,6 +1342,7 @@ h2{
         top: 0px;
     }
     .navbar-nav.open{
+        width: 100vw;
         top: 100%;
         display: block;
         /*background: rgba(0, 0, 0, 0.84);*/
@@ -1636,6 +1351,121 @@ h2{
         padding: 8px 8px 8px 8px;
         font-size: 13px;
         display: flex;
+    }
+    .herosec .hero-image {
+        left: -5vw;
+        top: 38px;
+    }
+    .hero .hero-text {
+        left: 5vw;
+        top: 300px;
+    }
+    .about-content{
+        position: relative;
+        left: -338px;
+        top: 311px;
+    }
+    .contact-form form {
+        width: 90vw;
+    }
+    .contact-text {
+        top: -296px;
+    }
+    .contact-text h2 {
+        font-size: 53px;
+        width: 95vw;
+    }
+    .contact-text p {
+        width: 95vw;
+        font-size: 16px;
+    }
+    .contact-icons {
+        left: 20vw;
+    }
+    .contact-form form input, form textarea {
+        padding: 12px;
+        font-size: 1rem;
+        font-weight: 400;
+        width: 94%;
+    }
+    .contact-form form .send {
+        padding: 5px 30px;
+    }
+    .contact-form {
+        width: fit-content;
+        position: relative;
+        top: 243px;
+        right: 90vw;
+    }
+    .contact {
+        min-height: 175vh;
+    }
+    .top img{
+        width: 16px;
+    }
+    .container-fluid {
+        width: 100vw;
+    }
+    .herosec {
+        min-height: 100vh;
+    }
+    .herobtn{
+        left: 110px;
+        top: 180px;
+    }
+    .hero h1{
+        font-size: 37px;
+    }
+    .socialMedia {
+        left: 46px;
+        top: 538px;
+    }
+    .about-img img {
+        width: 263px;
+        height: auto;
+        top: 42px;
+        left: 81px;
+    }
+    .about-sec {
+        min-height: 120vh;
+    }
+    .section-header p {
+        left: 176px;
+    }
+    .about-content .btn {
+        left: 196px;
+    }
+    .skill-right{
+        position: relative;
+        width: fit-content;
+        top: 112vw;
+        right: 87vw;
+    }
+    .skills {
+        min-height: 180vh;
+    }
+    .skill-bar {
+        width: 88vw;
+    }
+    .assignment-sec .container .drop .content {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 40px;
+        gap: 0px;
+    }
+    .gallery .controls .buttons {
+        width: 58px;
+        font-size: 13px;
+        margin: 16px;
+        padding: 8px;
+    }
+    .contact-form form .send {
+        padding: 5px 30px;
+        left: 126px;
     }
 }
 @media all and (max-width: 375px){
