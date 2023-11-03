@@ -1527,9 +1527,49 @@ body{
     .about-text p {
         left: 97px;
         font-size: 15px;
-        width: 287px;
+        width: 301px;
     }
     .about-sec {
         min-height: 126vh;
+    }
+    .portfolio-content .row {
+        position: relative;
+        overflow: hidden;
+        border-radius: 8px;
+        cursor: pointer;
+        width: 295px;
+        padding: 12px;
+    }
+    .about-img img {
+        width: 250px;
+        height: auto;
+        top: 42px;
+        left: 37px;
+    }
+    .socialMedia a {
+        margin: 11px;
+    }
+    .hero h1{
+        font-size: 28px;
+    }
+    .herobtn {
+        left: 76px;
+        top: 180px;
+    }
+    .about-content .btn {
+        left: 155px;
+    }
+    .skill-right {
+        position: relative;
+        width: fit-content;
+        top: 144vw;
+        right: 87vw;
+    }
+    .contact-icons {
+        left: 14vw;
+    }
+    .contact-form form .send {
+        padding: 5px 30px;
+        left: 87px;
     }
 }
