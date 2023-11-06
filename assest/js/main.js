@@ -28,8 +28,8 @@
         $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
         return false;
     });
-    
-    
+
+
     // Sticky Navbar
     $(window).scroll(function () {
         if ($(this).scrollTop() > 0) {
@@ -144,3 +144,22 @@ menuIcon.onclick = ()=>{
     menuIcon.classList.toggle("bx-x");
     navlist.classList.toggle("open");
 }
+
+//preloader
+// AOS.init();
+//
+// window.onload=()=>{
+//     $("#preloader").css('display','none')
+// }
+//
+// document.addEventListener("DOMContentLoaded",()=>{
+//     console.log("B")
+// })
+//
+// $(window).ready(()=>{
+//     console.log("C")
+// })
+// var loader = document.getElementById("preloader");
+// window.addEventListener("load", function () {
+//     loader.style.display = "none";
+// })

@@ -1017,6 +1017,7 @@ body{
     margin-bottom: 10px;
     display: flex;
     color: lightgrey;
+    cursor: pointer;
 }
 .contact-list img{
     display: inline-block;
@@ -1028,7 +1029,7 @@ body{
 }
 .contact-list li:hover{
     transform: scale(1.01) translateY(-5px);
-    color: #01ff95;
+    color: rgba(1, 255, 149, 0.65);
 }
 .contact-icons{
     width: fit-content;
@@ -1076,15 +1077,19 @@ body{
     color: #12f7ff;
     /*background: black;*/
     border: #12f7ff 2px;
-    border-radius: 0;
+    border-radius: 10px;
     transition: ease-out 0.3s;
     font-family: Montserrat;
     top: 10px;
     box-shadow: 0 0 .9rem #12f7ff;
 }
+.assignment-sec>p{
+    font-family: Montserrat;
+}
 .contact-form form .send:hover{
     background: #12f7ff;
     color: black;
+    cursor: pointer;
 }
 .last-text{
     width: 100%;
@@ -1573,3 +1578,34 @@ body{
         left: 87px;
     }
 }
+
+/*////////////////////////////////////////////////////////////*/
+/*//////////////////////Preloader//////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////*/
+/*#preloader{*/
+/*    position: fixed;*/
+/*    z-index: 99999;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    opacity: 0.5;*/
+/*}*/
+
+/*#preloader-over-layer{*/
+/*    background: black;*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    bottom: 0;*/
+/*    right: 0;*/
+/*    left: 0;*/
+/*    opacity: 0.8;*/
+/*}*/
+
+/*#preloader>img{*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    bottom: 0;*/
+/*    right: 0;*/
+/*    left: 0;*/
+/*    margin: auto;*/
+/*}*/
