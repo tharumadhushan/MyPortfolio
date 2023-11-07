@@ -218,6 +218,7 @@ body{
     position: absolute;
     background: black;
     top: 235px;
+    border-radius: 10px 10px 10px 10px;
 }
 .herobtn .btn{
     width: fit-content;
@@ -232,10 +233,14 @@ body{
     font-family: Montserrat;
     font-size: 18px;
     text-decoration: none;
-
 }
 .herobtn:hover{
     box-shadow: 0 0 .9rem #12f7ff;
+    background: #12f7ff;
+    font-weight: bold;
+}
+.herobtn .btn:hover{
+    color: black;
 }
 .socialMedia{
     width: fit-content;
@@ -327,13 +332,16 @@ body{
      letter-spacing: 1px;
      color: #ffffff;
      background: black;
-     border-radius: 0;
+    border-radius: 10px 10px 10px 10px;
      transition: ease-out 0.3s;
     font-family: Montserrat;
     text-decoration: none;
 }
 .about-content .btn:hover{
     box-shadow: 0 0 .9rem #12f7ff;
+    background: #12f7ff;
+    color: black;
+    font-weight: bold;
 }
 /*////////////////////////////////////////////////////////////*/
 /*//////////////services css/////////////////////////////////////*/
@@ -1008,6 +1016,7 @@ body{
     font-size: 20px;
     line-height: 30px;
     margin-bottom: 2rem;
+    width: 630px;
 }
 .contact-list{
     margin-bottom: 3rem;
