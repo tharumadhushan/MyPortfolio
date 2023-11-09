@@ -145,7 +145,7 @@ menuIcon.onclick = ()=>{
     navlist.classList.toggle("open");
 }
 
-//preloader
+// preloader
 // AOS.init();
 //
 // window.onload=()=>{
