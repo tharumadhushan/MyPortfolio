@@ -1280,34 +1280,82 @@ body{
     .gallery .controls .buttons {
         width: 94px;
     }
-    .contact-text h2 {
-        font-size: 53px;
-    }
-    .contact-text p {
-        width: 44vw;
-        font-size: 16px;
-    }
-    .contact-form form {
-        width: 47vw;
-    }
-    .contact-text {
-        top: -30px;
-    }
-    .contact-form {
-        width: fit-content;
-        position: relative;
-        top: -27px;
-    }
-    .contact-form form .send {
-        padding: 10px 44px;
-    }
-    .contact {
-        min-height: 94vh;
-    }
+    /*.contact-text h2 {*/
+    /*    font-size: 53px;*/
+    /*}*/
+    /*.contact-text p {*/
+    /*    width: 44vw;*/
+    /*    font-size: 16px;*/
+    /*}*/
+    /*.contact-form form {*/
+    /*    width: 47vw;*/
+    /*}*/
+    /*.contact-text {*/
+    /*    top: -30px;*/
+    /*}*/
+    /*.contact-form {*/
+    /*    width: fit-content;*/
+    /*    position: relative;*/
+    /*    top: 404px;*/
+    /*    left: -166px;*/
+    /*}*/
+    /*.contact-form form .send {*/
+    /*    padding: 10px 44px;*/
+    /*}*/
+    /*.contact {*/
+    /*    min-height: 94vh;*/
+    /*}*/
     .last-text p {
         padding: 11px 0;
         font-weight: 500;
         font-size: 12px;
+    }
+    .contact-form form {
+        width: 90vw;
+    }
+    .contact-text {
+        top: -296px;
+    }
+    .contact-text h2 {
+        font-size: 53px;
+        width: 95vw;
+    }
+    .contact-text p {
+        width: 95vw;
+        font-size: 16px;
+    }
+    .contact-icons {
+        left: 20vw;
+    }
+    .contact-form form input, form textarea {
+        padding: 12px;
+        font-size: 1rem;
+        font-weight: 400;
+        width: 94%;
+    }
+    .contact-form form .send {
+        padding: 5px 30px;
+    }
+    .contact-form {
+        width: fit-content;
+        position: relative;
+        top: 226px;
+        right: 90vw;
+    }
+    .contact {
+        min-height: 175vh;
+    }
+    .contact-form form .send {
+        padding: 5px 30px;
+        left: 265px;
+    }
+    .contact-icons img {
+        padding: 5px;
+        border: 2px solid #12f7ff;
+        border-radius: 50%;
+        margin-left: 50px;
+        transition: 5s ease;
+        animation: sideLeft 1s ease forwards;
     }
 }
 @media all and (max-width: 425px){
