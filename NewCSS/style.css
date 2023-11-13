@@ -1529,6 +1529,14 @@ body{
         padding: 5px 30px;
         left: 126px;
     }
+    .contact-icons img {
+        padding: 5px;
+        border: 2px solid #12f7ff;
+        border-radius: 50%;
+        margin-left: 0px;
+        transition: 5s ease;
+        animation: sideLeft 1s ease forwards;
+    }
 }
 @media all and (max-width: 375px){
     .about-text p {
